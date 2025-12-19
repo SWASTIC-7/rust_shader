@@ -1,3 +1,5 @@
+use rust_shader::run;
+
 fn main() {
-    println!("Hello, world!");
+    run().unwrap();
 }
